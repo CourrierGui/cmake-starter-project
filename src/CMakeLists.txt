@@ -1,1 +1,2 @@
-add_library(hello STATIC hello.cpp)
+add_library(math STATIC math.cpp)
+target_include_directories(math PUBLIC ../include)
