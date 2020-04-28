@@ -6,9 +6,12 @@ else()
     cmake_policy(VERSION 3.15)
 endif()
 
-project(math VERSION 1.0
-  DESCRIPTION "Simple math library."
-                  LANGUAGES CXX)
+project(
+  {{cookiecutter.project_name}}
+  VERSION {{cookiecutter.version}}
+  DESCRIPTION {{cookiecutter.description}}
+  LANGUAGES CXX
+)
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
