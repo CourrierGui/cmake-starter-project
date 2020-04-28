@@ -9,7 +9,7 @@ endif()
 project(
   {{cookiecutter.project_name}}
   VERSION {{cookiecutter.version}}
-  DESCRIPTION {{cookiecutter.description}}
+  DESCRIPTION "{{cookiecutter.description}}"
   LANGUAGES CXX
 )
 
